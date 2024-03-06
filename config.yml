@@ -37,11 +37,21 @@ menu:
         newTab: true
 
 permalinks:
-  post: /p/:slug/
+  post: /post/:slug/
   page: /:slug/
 
 params:
   favicon: /favicon.ico
+  defaultImage:
+    opengraph:
+      enabled: true
+      local: true
+      src: "img/opengraph_default.png"
+  imageProcessing:
+      cover:
+          enabled: true
+      content:
+          enabled: true
   mainSections:
         - post
   featuredImageField: image
@@ -70,3 +80,16 @@ params:
           limit: 10
     page:
       - type: toc
+  comments:
+    enabled: true
+    provider: giscus
+    giscus:
+      repo: "radiquum/blog"
+      repoID: "R_kgDOLcLtlA"
+      category: "Announcements"
+      categoryID: "DIC_kwDOLcLtlM4Cdw10"
+      mapping: "title"
+      lightTheme: "light"
+      darkTheme: "dark_dimmed"
+      reactionsEnabled: 1
+      emitMetadata: 0
