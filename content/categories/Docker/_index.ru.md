@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-description: "docker"
+description: "разные вещи сванные с docker"
 slug: "docker"
 image: "docker.svg"
 style:
