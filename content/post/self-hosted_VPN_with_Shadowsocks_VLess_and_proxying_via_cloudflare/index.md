@@ -95,7 +95,9 @@ This guide assumes you are using CloudFlare as your domain CDN and DNS managment
           caddy.reverse_proxy: "http://v2ray:1310"
     ```
 
-2. Run `docker-compose up -d`.
+    Don't forget to replace `<YOUR-DOMAIN>` to your domain name.
+
+2. Run `docker compose up -d`.
 
 3. In your CDN, turn the proxy option on for the record.
 

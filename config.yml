@@ -2,8 +2,18 @@ baseURL: "https://radiquum.wah.su"
 languageCode: "en-us"
 title: "Radiquum Blog"
 theme: "stack"
+
 DefaultContentLanguage: "en"
 hasCJKLanguage: false
+languages:
+    en:
+        languageName: English
+        title: Radiquum Blog
+        weight: 1
+    ru:
+        languageName: Русский
+        title: Radiquum Blog
+        weight: 2
 
 menu:
   social:
