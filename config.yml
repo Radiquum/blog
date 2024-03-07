@@ -103,3 +103,5 @@ params:
       darkTheme: "dark_dimmed"
       reactionsEnabled: 1
       emitMetadata: 0
+
+enableRobotsTXT: true
