@@ -1,4 +1,4 @@
-baseURL: "https://radiquum.wah.su"
+baseURL: "https://radiquum.wah.su/blog"
 languageCode: "en-us"
 title: "Radiquum Blog"
 theme: "stack"
@@ -38,12 +38,12 @@ menu:
       params:
         icon: brand-mastodon
         newTab: true
-    - identifier: bento
-      name: bento
-      url: https://bento.me/radiquum
+    - identifier: links
+      name: "About me"
+      url: https://wah.su/radiquum
       weight: -200
       params:
-        icon: brand-bento
+        icon: material-symbols--light-link
         newTab: true
 
 permalinks:
